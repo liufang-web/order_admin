@@ -4,9 +4,9 @@ server:
     uri-encoding: UTF-8
     max-threads: 1000
     min-spare-threads: 30
-  port: 8080
+  port: 9001
   servlet:
-    context-path: /renren-admin
+    context-path: /admin
 
 spring:
   profiles:

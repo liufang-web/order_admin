@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.order.dao.GoodDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.order.entity.GoodEntity" id="goodMap">
+        <result property="goodId" column="good_id"/>
+        <result property="goodName" column="good_name"/>
+        <result property="goodPrice" column="good_price"/>
+        <result property="goodDec" column="good_dec"/>
+        <result property="goodSellCount" column="good_sell_count"/>
+        <result property="goodRating" column="good_rating"/>
+        <result property="goodInfo" column="good_info"/>
+        <result property="goodIcon" column="good_icon"/>
+        <result property="goodImage" column="good_image"/>
+    </resultMap>
+
+
+</mapper>

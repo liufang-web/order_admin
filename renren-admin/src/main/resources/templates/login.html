@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>人人权限系统</title>
+  <title>扫码点餐管理系统</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="${request.contextPath}/statics/css/bootstrap.min.css">
@@ -23,7 +23,7 @@
 <body class="hold-transition login-page">
 <div class="login-box" id="rrapp" v-cloak>
   <div class="login-logo">
-    <b>人人权限系统</b>
+    <b>扫码点餐管理系统</b>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
@@ -47,8 +47,8 @@
         <img alt="如果看不清楚，请单击图片刷新！" class="pointer" :src="src" @click="refreshCode">
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:;" @click="refreshCode">点击刷新</a>
       </div>
-      
-      
+
+
       <div class="row">
         <div class="col-xs-8">
           <div class="checkbox icheck">
@@ -105,7 +105,7 @@ var vm = new Vue({
 					}else{
 						vm.error = true;
 						vm.errorMsg = result.msg;
-						
+
 						vm.refreshCode();
 					}
 				}
