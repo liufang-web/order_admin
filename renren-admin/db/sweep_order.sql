@@ -1,17 +1,17 @@
 /*
  Navicat Premium Data Transfer
 
- Source Server         : llb阿里云ESC
+ Source Server         : mysql
  Source Server Type    : MySQL
- Source Server Version : 50616
- Source Host           : 39.106.48.159:3306
+ Source Server Version : 50642
+ Source Host           : localhost:3306
  Source Schema         : sweep_order
 
  Target Server Type    : MySQL
- Target Server Version : 50616
+ Target Server Version : 50642
  File Encoding         : 65001
 
- Date: 04/05/2019 21:28:31
+ Date: 19/05/2019 13:16:54
 */
 
 SET NAMES utf8mb4;
@@ -61,28 +61,28 @@ CREATE TABLE `good`  (
 -- ----------------------------
 -- Records of good
 -- ----------------------------
-INSERT INTO `good` VALUES (1, '皮蛋瘦肉粥', 10.00, '咸粥', 229, 100, '一碗皮蛋瘦肉粥，总是我到粥店时的不二之选。香浓软滑，饱腹暖心，皮蛋的Q弹与瘦肉的滑嫩伴着粥香溢于满口，让人喝这样的一碗粥也觉得心满意足', 'http://fuss10.elemecdn.com/c/cd/c12745ed8a5171e13b427dbc39401jpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/c/cd/c12745ed8a5171e13b427dbc39401jpeg.jpeg?imageView2/1/w/750/h/750');
-INSERT INTO `good` VALUES (2, '扁豆焖面', 14.00, NULL, 188, 96, NULL, 'http://fuss10.elemecdn.com/c/6b/29e3d29b0db63d36f7c500bca31d8jpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/c/6b/29e3d29b0db63d36f7c500bca31d8jpeg.jpeg?imageView2/1/w/750/h/750');
-INSERT INTO `good` VALUES (3, '葱花饼', 10.00, NULL, 124, 85, NULL, 'http://fuss10.elemecdn.com/f/28/a51e7b18751bcdf871648a23fd3b4jpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/f/28/a51e7b18751bcdf871648a23fd3b4jpeg.jpeg?imageView2/1/w/750/h/750');
-INSERT INTO `good` VALUES (4, '牛肉馅饼', 14.00, NULL, 114, 91, NULL, 'http://fuss10.elemecdn.com/d/b9/bcab0e8ad97758e65ae5a62b2664ejpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/d/b9/bcab0e8ad97758e65ae5a62b2664ejpeg.jpeg?imageView2/1/w/750/h/750');
-INSERT INTO `good` VALUES (5, '招牌猪肉白菜锅贴/10个', 17.00, NULL, 101, 78, NULL, 'http://fuss10.elemecdn.com/7/72/9a580c1462ca1e4d3c07e112bc035jpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/7/72/9a580c1462ca1e4d3c07e112bc035jpeg.jpeg?imageView2/1/w/750/h/750');
-INSERT INTO `good` VALUES (6, '南瓜粥', 9.00, '甜粥', 91, 100, NULL, 'http://fuss10.elemecdn.com/8/a6/453f65f16b1391942af11511b7a90jpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/8/a6/453f65f16b1391942af11511b7a90jpeg.jpeg?imageView2/1/w/750/h/750');
-INSERT INTO `good` VALUES (7, '红豆薏米美肤粥', 12.00, '甜粥', 86, 100, NULL, 'http://fuss10.elemecdn.com/d/22/260bd78ee6ac6051136c5447fe307jpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/d/22/260bd78ee6ac6051136c5447fe307jpeg.jpeg?imageView2/1/w/750/h/750');
-INSERT INTO `good` VALUES (8, '八宝酱菜', 4.00, NULL, 84, 100, NULL, 'http://fuss10.elemecdn.com/9/b5/469d8854f9a3a03797933fd01398bjpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/9/b5/469d8854f9a3a03797933fd01398bjpeg.jpeg?imageView2/1/w/750/h/750');
-INSERT INTO `good` VALUES (9, '红枣山药糙米粥', 10.00, NULL, 81, 91, NULL, 'http://fuss10.elemecdn.com/9/b5/469d8854f9a3a03797933fd01398bjpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/9/b5/469d8854f9a3a03797933fd01398bjpeg.jpeg?imageView2/1/w/750/h/750');
-INSERT INTO `good` VALUES (10, '糊塌子', 10.00, NULL, 80, 93, NULL, 'http://fuss10.elemecdn.com/0/05/097a2a59fd2a2292d08067e16380cjpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/0/05/097a2a59fd2a2292d08067e16380cjpeg.jpeg?imageView2/1/w/750/h/750');
-INSERT INTO `good` VALUES (11, '红枣山药粥套餐', 29.00, '红枣山药糙米粥,素材包,爽口莴笋丝,四川泡菜或八宝酱菜,配菜可备注', 17, 100, NULL, 'http://fuss10.elemecdn.com/6/72/cb844f0bb60c502c6d5c05e0bddf5jpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/6/72/cb844f0bb60c502c6d5c05e0bddf5jpeg.jpeg?imageView2/1/w/750/h/750');
-INSERT INTO `good` VALUES (12, 'VC无限橙果汁', 8.00, NULL, 15, 100, NULL, 'http://fuss10.elemecdn.com/e/c6/f348e811772016ae24e968238bcbfjpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/e/c6/f348e811772016ae24e968238bcbfjpeg.jpeg?imageView2/1/w/750/h/750');
-INSERT INTO `good` VALUES (13, '娃娃菜炖豆腐', 17.00, NULL, 43, 92, NULL, 'http://fuss10.elemecdn.com/d/2d/b1eb45b305635d9dd04ddf157165fjpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/d/2d/b1eb45b305635d9dd04ddf157165fjpeg.jpeg?imageView2/1/w/750/h/750');
-INSERT INTO `good` VALUES (14, '手撕包菜', 16.00, NULL, 29, 100, NULL, 'http://fuss10.elemecdn.com/9/c6/f3bc84468820121112e79583c24efjpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/9/c6/f3bc84468820121112e79583c24efjpeg.jpeg?imageView2/1/w/750/h/750');
-INSERT INTO `good` VALUES (15, '香酥黄金鱼/3条', 11.00, NULL, 15, 100, NULL, 'http://fuss10.elemecdn.com/4/e7/8277a6a2ea0a2e97710290499fc41jpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/4/e7/8277a6a2ea0a2e97710290499fc41jpeg.jpeg?imageView2/1/w/750/h/750');
-INSERT INTO `good` VALUES (17, '拍黄瓜', 9.00, NULL, 28, 100, NULL, 'http://fuss10.elemecdn.com/6/54/f654985b4e185f06eb07f8fa2b2e8jpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/6/54/f654985b4e185f06eb07f8fa2b2e8jpeg.jpeg?imageView2/1/w/750/h/750');
-INSERT INTO `good` VALUES (18, '红豆薏米粥套餐', 37.00, '红豆薏米粥,三鲜干蒸烧卖,拍黄瓜', 3, 100, NULL, 'http://fuss10.elemecdn.com/f/49/27f26ed00c025b2200a9ccbb7e67ejpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/f/49/27f26ed00c025b2200a9ccbb7e67ejpeg.jpeg?imageView2/1/w/750/h/750');
-INSERT INTO `good` VALUES (19, '皮蛋瘦肉粥套餐', 31.00, NULL, 12, 100, NULL, 'http://fuss10.elemecdn.com/8/96/f444a8087f0e940ef264617f9d98ajpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/8/96/f444a8087f0e940ef264617f9d98ajpeg.jpeg?imageView2/1/w/750/h/750');
-INSERT INTO `good` VALUES (20, '蜜瓜圣女萝莉杯', 6.00, NULL, 1, NULL, NULL, 'http://fuss10.elemecdn.com/b/5f/b3b04c259d5ec9fa52e1856ee50dajpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/b/5f/b3b04c259d5ec9fa52e1856ee50dajpeg.jpeg?imageView2/1/w/750/h/750');
-INSERT INTO `good` VALUES (21, '加多宝', 6.00, NULL, 7, 100, NULL, 'http://fuss10.elemecdn.com/b/9f/5e6c99c593cf65229225c5661bcdejpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/b/9f/5e6c99c593cf65229225c5661bcdejpeg.jpeg?imageView2/1/w/750/h/750');
-INSERT INTO `good` VALUES (22, '鲜蔬菌菇粥', 11.00, '咸粥', 56, 100, NULL, 'http://fuss10.elemecdn.com/e/a3/5317c68dd618929b6ac05804e429ajpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/e/a3/5317c68dd618929b6ac05804e429ajpeg.jpeg?imageView2/1/w/750/h/750');
-INSERT INTO `good` VALUES (23, '田园蔬菜粥', 10.00, '咸粥', 33, 100, NULL, 'http://fuss10.elemecdn.com/a/94/7371083792c19df00e546b29e344cjpeg.jpeg?imageView2/1/w/114/h/114', 'http://fuss10.elemecdn.com/a/94/7371083792c19df00e546b29e344cjpeg.jpeg?imageView2/1/w/750/h/750');
+INSERT INTO `good` VALUES (1, '皮蛋瘦肉粥', 10.00, '咸粥', 229, 100, '一碗皮蛋瘦肉粥，总是我到粥店时的不二之选。香浓软滑，饱腹暖心，皮蛋的Q弹与瘦肉的滑嫩伴着粥香溢于满口，让人喝这样的一碗粥也觉得心满意足', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon1-114px-114px.png', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img1-750px-750px.jpeg');
+INSERT INTO `good` VALUES (2, '扁豆焖面', 14.00, '焖面', 188, 96, NULL, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon2.png', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img2.jpeg');
+INSERT INTO `good` VALUES (3, '葱花饼', 10.00, NULL, 124, 85, NULL, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon3.png', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img3.jpeg');
+INSERT INTO `good` VALUES (4, '牛肉馅饼', 14.00, NULL, 114, 91, NULL, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon4.png', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img4.jpeg');
+INSERT INTO `good` VALUES (5, '招牌猪肉白菜锅贴/10个', 17.00, NULL, 101, 78, NULL, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon5.png', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img5.jpeg');
+INSERT INTO `good` VALUES (6, '南瓜粥', 9.00, '甜粥', 91, 100, NULL, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon6.png', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img6.jpeg');
+INSERT INTO `good` VALUES (7, '红豆薏米美肤粥', 12.00, '甜粥', 86, 100, NULL, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon7.jpeg', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img7.jpeg');
+INSERT INTO `good` VALUES (8, '八宝酱菜', 4.00, NULL, 84, 100, NULL, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon8.jpeg', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img8.jpeg');
+INSERT INTO `good` VALUES (9, '红枣山药糙米粥', 10.00, NULL, 81, 91, NULL, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon9.jpeg', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img9.jpeg');
+INSERT INTO `good` VALUES (10, '糊塌子', 10.00, NULL, 80, 93, NULL, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon10.jpeg', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img10.jpeg');
+INSERT INTO `good` VALUES (11, '红枣山药粥套餐', 29.00, '红枣山药糙米粥,素材包,爽口莴笋丝,四川泡菜或八宝酱菜,配菜可备注', 19, 100, NULL, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon11.png', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img11.jpeg');
+INSERT INTO `good` VALUES (12, 'VC无限橙果汁', 8.00, NULL, 16, 100, NULL, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon12.png', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img12.jpeg');
+INSERT INTO `good` VALUES (13, '娃娃菜炖豆腐', 17.00, NULL, 43, 92, NULL, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon13.jpeg', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img13.jpeg');
+INSERT INTO `good` VALUES (14, '手撕包菜', 16.00, NULL, 29, 100, NULL, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon14.png', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img14.jpeg');
+INSERT INTO `good` VALUES (15, '香酥黄金鱼/3条', 11.00, NULL, 15, 100, NULL, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon15.png', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img15.jpeg');
+INSERT INTO `good` VALUES (17, '拍黄瓜', 9.00, NULL, 28, 100, NULL, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon17.png', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img17.jpeg');
+INSERT INTO `good` VALUES (18, '红豆薏米粥套餐', 37.00, '红豆薏米粥,三鲜干蒸烧卖,拍黄瓜', 3, 100, NULL, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon18.jpeg', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img18.jpeg');
+INSERT INTO `good` VALUES (19, '皮蛋瘦肉粥套餐', 31.00, NULL, 12, 100, NULL, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon19.jpeg', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img19.jpeg');
+INSERT INTO `good` VALUES (20, '蜜瓜圣女萝莉杯', 6.00, NULL, 1, NULL, NULL, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon20.png', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img20.jpeg');
+INSERT INTO `good` VALUES (21, '加多宝', 6.00, NULL, 7, 100, NULL, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon21.png', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img21.jpeg');
+INSERT INTO `good` VALUES (22, '鲜蔬菌菇粥', 11.00, '咸粥', 56, 100, NULL, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon22.png', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img22.jpeg');
+INSERT INTO `good` VALUES (23, '田园蔬菜粥', 10.00, '咸粥', 33, 100, NULL, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon23.png', 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-img23.jpeg');
 
 -- ----------------------------
 -- Table structure for good_category
@@ -150,60 +150,100 @@ CREATE TABLE `good_rating`  (
 -- ----------------------------
 -- Records of good_rating
 -- ----------------------------
-INSERT INTO `good_rating` VALUES (1, 1, '3******c', 1469281964000, 0, '很喜欢的粥', 'http://static.galileo.xiaojukeji.com/static/tms/default_header.png');
-INSERT INTO `good_rating` VALUES (2, 1, '2******3', 1469271264000, 0, '喜欢，多来点', 'http://static.galileo.xiaojukeji.com/static/tms/default_header.png');
-INSERT INTO `good_rating` VALUES (3, 1, '3******b', 1469261964000, 1, '很喜欢', 'http://static.galileo.xiaojukeji.com/static/tms/default_header.png');
-INSERT INTO `good_rating` VALUES (4, 2, '3******c', 1469281964000, 0, '好吃', 'http://static.galileo.xiaojukeji.com/static/tms/default_header.png');
-INSERT INTO `good_rating` VALUES (5, 2, '2******3', 1469271264000, 0, '喜欢', 'http://static.galileo.xiaojukeji.com/static/tms/default_header.png');
-INSERT INTO `good_rating` VALUES (6, 2, '3******b', 1469261964000, 1, '没感觉', 'http://static.galileo.xiaojukeji.com/static/tms/default_header.png');
-INSERT INTO `good_rating` VALUES (7, 3, '3******c', 1469281964000, 1, '挺好的', 'http://static.galileo.xiaojukeji.com/static/tms/default_header.png');
-INSERT INTO `good_rating` VALUES (8, 3, '2******3', 1469271264000, 1, '很一般啊', 'http://static.galileo.xiaojukeji.com/static/tms/default_header.png');
-INSERT INTO `good_rating` VALUES (9, 3, '3******b', 1469261964000, 0, '挺好吃的', 'http://static.galileo.xiaojukeji.com/static/tms/default_header.png');
-INSERT INTO `good_rating` VALUES (10, 4, '3******c', 1469281964000, 1, '难吃不推荐', 'http://static.galileo.xiaojukeji.com/static/tms/default_header.png');
-INSERT INTO `good_rating` VALUES (11, 4, '2******3', 1469271264000, 0, '还好吧', 'http://static.galileo.xiaojukeji.com/static/tms/default_header.png');
-INSERT INTO `good_rating` VALUES (12, 4, '3******b', 1469261964000, 0, '挺香', 'http://static.galileo.xiaojukeji.com/static/tms/default_header.png');
-INSERT INTO `good_rating` VALUES (13, 5, '3******c', 1469281964000, 1, '不脆,不好吃', 'http://static.galileo.xiaojukeji.com/static/tms/default_header.png');
-INSERT INTO `good_rating` VALUES (14, 5, '2******3', 1469271264000, 0, '挺好吃', NULL);
-INSERT INTO `good_rating` VALUES (15, 5, '3******b', 1469261964000, 0, '不错', NULL);
-INSERT INTO `good_rating` VALUES (16, 6, '3******c', 1469281964000, 0, '很赞', NULL);
-INSERT INTO `good_rating` VALUES (17, 6, '2******3', 1469271264000, 0, '味道很好啊', NULL);
-INSERT INTO `good_rating` VALUES (18, 6, '3******b', 1469261964000, 0, '不喜欢', NULL);
-INSERT INTO `good_rating` VALUES (19, 7, '3******c', 1469281964000, 0, '家的味道', NULL);
-INSERT INTO `good_rating` VALUES (20, 7, '2******3', 1469271264000, 0, '分量很大', NULL);
-INSERT INTO `good_rating` VALUES (21, 7, '3******b', 1469261964000, 0, '可以', NULL);
-INSERT INTO `good_rating` VALUES (22, 8, '1******a', 1469281964000, 0, '味道好', NULL);
-INSERT INTO `good_rating` VALUES (23, 8, '2******b', 1469271264000, 1, '不好吃', NULL);
-INSERT INTO `good_rating` VALUES (24, 9, '1******a', 1469281964000, 0, '下次还来', NULL);
-INSERT INTO `good_rating` VALUES (25, 9, '4******d', 1469271264000, 0, '(null)', NULL);
-INSERT INTO `good_rating` VALUES (26, 10, '2******e', 1469281964000, 1, '不行，难吃', NULL);
-INSERT INTO `good_rating` VALUES (27, 10, '3******a', 1469271264000, 0, '很棒的味', NULL);
-INSERT INTO `good_rating` VALUES (28, 10, '4******c', 1469261964000, 0, '不错，再接再厉', NULL);
-INSERT INTO `good_rating` VALUES (29, 10, '1******f', 1469251964000, 0, '还好吧', NULL);
-INSERT INTO `good_rating` VALUES (30, 11, '1******w', 1469281964000, 0, '挺好吃的', NULL);
-INSERT INTO `good_rating` VALUES (31, 11, '2******5', 1469271264000, 1, '感觉不行', NULL);
-INSERT INTO `good_rating` VALUES (32, 12, '3******d', 1469281964000, 0, '挺好吃', NULL);
-INSERT INTO `good_rating` VALUES (33, 12, '4******q', 1469271264000, 0, NULL, NULL);
-INSERT INTO `good_rating` VALUES (34, 12, '3******e', 1469261964000, 1, '味道不正宗', NULL);
-INSERT INTO `good_rating` VALUES (35, 13, '1******a', 1469281964000, 0, NULL, NULL);
-INSERT INTO `good_rating` VALUES (36, 14, '1******d', 1469281964000, 0, '不错', NULL);
-INSERT INTO `good_rating` VALUES (37, 14, '2******w', 1469271264000, 0, NULL, NULL);
-INSERT INTO `good_rating` VALUES (38, 15, '1******d', 1469281964000, 1, NULL, NULL);
-INSERT INTO `good_rating` VALUES (39, 15, '2******c', 1469271264000, 0, '叫上小伙伴一起', NULL);
-INSERT INTO `good_rating` VALUES (40, 16, '2******c', 1469281964000, 0, '不错哦', NULL);
-INSERT INTO `good_rating` VALUES (41, 16, '3******b', 1469271264000, 0, '可以来尝尝', NULL);
-INSERT INTO `good_rating` VALUES (42, 17, '1******a', 1469281964000, 0, NULL, NULL);
-INSERT INTO `good_rating` VALUES (43, 17, '1******a', 1469271264000, 1, NULL, NULL);
-INSERT INTO `good_rating` VALUES (44, 17, '4******d', 1469261964000, 0, NULL, NULL);
-INSERT INTO `good_rating` VALUES (45, 18, '4******d', 1469281964000, 0, '感觉味道棒棒的', NULL);
-INSERT INTO `good_rating` VALUES (46, 19, '2******e', 1469281964000, 0, NULL, NULL);
-INSERT INTO `good_rating` VALUES (47, 20, '1******e', 1469281964000, 0, '喜欢', NULL);
-INSERT INTO `good_rating` VALUES (48, 20, '4******c', 1469271264000, 1, NULL, NULL);
-INSERT INTO `good_rating` VALUES (49, 21, '1******f', 1469281964000, 1, '不好', NULL);
-INSERT INTO `good_rating` VALUES (50, 21, '1******w', 1469271264000, 0, NULL, NULL);
-INSERT INTO `good_rating` VALUES (51, 22, '2******5', 1469281964000, 0, NULL, NULL);
-INSERT INTO `good_rating` VALUES (52, 22, '3******d', 1469271264000, 0, '下次再来哦', NULL);
-INSERT INTO `good_rating` VALUES (53, 23, '2******w', 1469281964000, 0, NULL, NULL);
-INSERT INTO `good_rating` VALUES (54, 23, '1******a', 1469271264000, 1, '希望味道能更好点', NULL);
+INSERT INTO `good_rating` VALUES (1, 1, '3******c', 1553740008000, 0, '很喜欢的粥', 'https://order-image.oss-cn-beijing.aliyuncs.com/user-img.png');
+INSERT INTO `good_rating` VALUES (2, 1, '2******3', 1553650008000, 0, '喜欢，多来点', 'https://order-image.oss-cn-beijing.aliyuncs.com/user-img.png');
+INSERT INTO `good_rating` VALUES (3, 1, '3******b', 1553563608000, 1, '很喜欢', 'https://order-image.oss-cn-beijing.aliyuncs.com/user-img.png');
+INSERT INTO `good_rating` VALUES (4, 2, '3******c', 1553650008000, 0, '好吃', 'https://order-image.oss-cn-beijing.aliyuncs.com/user-img.png');
+INSERT INTO `good_rating` VALUES (5, 2, '2******3', 1553563608000, 0, '喜欢', 'https://order-image.oss-cn-beijing.aliyuncs.com/user-img.png');
+INSERT INTO `good_rating` VALUES (6, 2, '3******b', 1553477208000, 1, '没感觉', 'https://order-image.oss-cn-beijing.aliyuncs.com/user-img.png');
+INSERT INTO `good_rating` VALUES (7, 3, '3******c', 1553390808000, 1, '挺好的', 'https://order-image.oss-cn-beijing.aliyuncs.com/user-img.png');
+INSERT INTO `good_rating` VALUES (8, 3, '2******3', 1553304408000, 1, '很一般啊', 'https://order-image.oss-cn-beijing.aliyuncs.com/user-img.png');
+INSERT INTO `good_rating` VALUES (9, 3, '3******b', 1553218008000, 0, '挺好吃的', 'https://order-image.oss-cn-beijing.aliyuncs.com/user-img.png');
+INSERT INTO `good_rating` VALUES (10, 4, '3******c', 1553131608000, 1, '难吃不推荐', 'https://order-image.oss-cn-beijing.aliyuncs.com/user-img.png');
+INSERT INTO `good_rating` VALUES (11, 4, '2******3', 1553045208000, 0, '还好吧', 'https://order-image.oss-cn-beijing.aliyuncs.com/user-img.png');
+INSERT INTO `good_rating` VALUES (12, 4, '3******b', 1552958808000, 0, '挺香', 'https://order-image.oss-cn-beijing.aliyuncs.com/user-img.png');
+INSERT INTO `good_rating` VALUES (13, 5, '3******c', 1552872408000, 1, '不脆,不好吃', 'https://order-image.oss-cn-beijing.aliyuncs.com/user-img.png');
+INSERT INTO `good_rating` VALUES (14, 5, '2******3', 1552786008000, 0, '挺好吃', NULL);
+INSERT INTO `good_rating` VALUES (15, 5, '3******b', 1552699608000, 0, '不错', NULL);
+INSERT INTO `good_rating` VALUES (16, 6, '3******c', 1552613208000, 0, '很赞', NULL);
+INSERT INTO `good_rating` VALUES (17, 6, '2******3', 1552526808000, 0, '味道很好啊', NULL);
+INSERT INTO `good_rating` VALUES (18, 6, '3******b', 1552440408000, 0, '不喜欢', NULL);
+INSERT INTO `good_rating` VALUES (19, 7, '3******c', 1552354008000, 0, '家的味道', NULL);
+INSERT INTO `good_rating` VALUES (20, 7, '2******3', 1552267608000, 0, '分量很大', NULL);
+INSERT INTO `good_rating` VALUES (21, 7, '3******b', 1552181208000, 0, '可以', NULL);
+INSERT INTO `good_rating` VALUES (22, 8, '1******a', 1552094808000, 0, '味道好', NULL);
+INSERT INTO `good_rating` VALUES (23, 8, '2******b', 1552008408000, 1, '不好吃', NULL);
+INSERT INTO `good_rating` VALUES (24, 9, '1******a', 1551922008000, 0, '下次还来', NULL);
+INSERT INTO `good_rating` VALUES (25, 9, '4******d', 1551835608000, 0, '(null)', NULL);
+INSERT INTO `good_rating` VALUES (26, 10, '2******e', 1551749208000, 1, '不行，难吃', NULL);
+INSERT INTO `good_rating` VALUES (27, 10, '3******a', 1551662808000, 0, '很棒的味', NULL);
+INSERT INTO `good_rating` VALUES (28, 10, '4******c', 1551576408000, 0, '不错，再接再厉', NULL);
+INSERT INTO `good_rating` VALUES (29, 10, '1******f', 1551490008000, 0, '还好吧', NULL);
+INSERT INTO `good_rating` VALUES (30, 11, '1******w', 1551403608000, 0, '挺好吃的', NULL);
+INSERT INTO `good_rating` VALUES (31, 11, '2******5', 1551317208000, 1, '感觉不行', NULL);
+INSERT INTO `good_rating` VALUES (32, 12, '3******d', 1551230808000, 0, '挺好吃', NULL);
+INSERT INTO `good_rating` VALUES (33, 12, '4******q', 1551144408000, 0, NULL, NULL);
+INSERT INTO `good_rating` VALUES (34, 12, '3******e', 1551058008000, 1, '味道不正宗', NULL);
+INSERT INTO `good_rating` VALUES (35, 13, '1******a', 1550971608000, 0, NULL, NULL);
+INSERT INTO `good_rating` VALUES (36, 14, '1******d', 1550885208000, 0, '不错', NULL);
+INSERT INTO `good_rating` VALUES (37, 14, '2******w', 1550798808000, 0, NULL, NULL);
+INSERT INTO `good_rating` VALUES (38, 15, '1******d', 1550712408000, 1, NULL, NULL);
+INSERT INTO `good_rating` VALUES (39, 15, '2******c', 1550626008000, 0, '叫上小伙伴一起', NULL);
+INSERT INTO `good_rating` VALUES (40, 16, '2******c', 1550539608000, 0, '不错哦', NULL);
+INSERT INTO `good_rating` VALUES (41, 16, '3******b', 1550453208000, 0, '可以来尝尝', NULL);
+INSERT INTO `good_rating` VALUES (42, 17, '1******a', 1550366808000, 0, NULL, NULL);
+INSERT INTO `good_rating` VALUES (43, 17, '1******a', 1550280408000, 1, NULL, NULL);
+INSERT INTO `good_rating` VALUES (44, 17, '4******d', 1550194008000, 0, NULL, NULL);
+INSERT INTO `good_rating` VALUES (45, 18, '4******d', 1550107608000, 0, '感觉味道棒棒的', NULL);
+INSERT INTO `good_rating` VALUES (46, 19, '2******e', 1550021208000, 0, NULL, NULL);
+INSERT INTO `good_rating` VALUES (47, 20, '1******e', 1549934808000, 0, '喜欢', NULL);
+INSERT INTO `good_rating` VALUES (48, 20, '4******c', 1549848408000, 1, NULL, NULL);
+INSERT INTO `good_rating` VALUES (49, 21, '1******f', 1549762008000, 1, '不好', NULL);
+INSERT INTO `good_rating` VALUES (50, 21, '1******w', 1549675608000, 0, NULL, NULL);
+INSERT INTO `good_rating` VALUES (51, 22, '2******5', 1549589208000, 0, NULL, NULL);
+INSERT INTO `good_rating` VALUES (52, 22, '3******d', 1549502808000, 0, '下次再来哦', NULL);
+INSERT INTO `good_rating` VALUES (53, 23, '2******w', 1549416408000, 0, NULL, NULL);
+INSERT INTO `good_rating` VALUES (54, 23, '1******a', 1549330008000, 1, '希望味道能更好点', NULL);
+
+-- ----------------------------
+-- Table structure for order_detail
+-- ----------------------------
+DROP TABLE IF EXISTS `order_detail`;
+CREATE TABLE `order_detail`  (
+  `detail_id` int(11) NOT NULL AUTO_INCREMENT COMMENT '订单详情id',
+  `order_id` varchar(100) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL COMMENT '订单号',
+  `product_id` int(11) NULL DEFAULT NULL COMMENT '商品id',
+  `product_name` varchar(100) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL COMMENT '商品名',
+  `product_quantity` int(11) NULL DEFAULT NULL COMMENT '商品数量',
+  `product_icon` varchar(500) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL COMMENT '商品图片url',
+  `create_time` timestamp(0) NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `update_time` timestamp(0) NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP(0) COMMENT '修改时间',
+  PRIMARY KEY (`detail_id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 17 CHARACTER SET = utf8 COLLATE = utf8_bin ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of order_detail
+-- ----------------------------
+INSERT INTO `order_detail` VALUES (15, '5b1e366d-ded8-4671-8e5a-833eeab8436c', 11, '红枣山药粥套餐', 2, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon11.png', '2019-05-19 00:06:12', '2019-05-19 00:06:12');
+INSERT INTO `order_detail` VALUES (16, '5b1e366d-ded8-4671-8e5a-833eeab8436c', 12, 'VC无限橙果汁', 1, 'https://order-image.oss-cn-beijing.aliyuncs.com/goods-icon12.png', '2019-05-19 00:06:12', '2019-05-19 00:06:12');
+
+-- ----------------------------
+-- Table structure for order_master
+-- ----------------------------
+DROP TABLE IF EXISTS `order_master`;
+CREATE TABLE `order_master`  (
+  `order_id` varchar(100) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL COMMENT '订单号',
+  `order_amount` decimal(8, 2) NULL DEFAULT NULL COMMENT '订单金额',
+  `desk_id` int(11) NULL DEFAULT NULL COMMENT '桌号',
+  `create_time` timestamp(0) NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `update_time` timestamp(0) NULL DEFAULT CURRENT_TIMESTAMP COMMENT '更新时间',
+  PRIMARY KEY (`order_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '订单主表' ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of order_master
+-- ----------------------------
+INSERT INTO `order_master` VALUES ('5b1e366d-ded8-4671-8e5a-833eeab8436c', 66.00, 2, '2019-05-19 00:06:13', '2019-05-19 00:06:12');
 
 -- ----------------------------
 -- Table structure for seller
@@ -232,7 +272,7 @@ CREATE TABLE `seller`  (
 -- ----------------------------
 -- Records of seller
 -- ----------------------------
-INSERT INTO `seller` VALUES (1, '粥品香坊（回龙观）', '蜂鸟专送', 0000000038, 4.2, 4.1, 4.3, 69.2, 20.0, 4, 24, 90, '粥品香坊其烹饪粥料的秘方源于中国千年古法，在融和现代制作工艺，由世界烹饪大师屈浩先生领衔研发。坚守纯天然、0添加的良心品质深得消费者青睐，发展至今成为粥类的引领品牌。是2008年奥运会和2013年园博会指定餐饮服务商。', 'http://static.galileo.xiaojukeji.com/static/tms/seller_avatar_256px.jpg', '该商家支持发票,请下单写好发票抬头#\r\n品类:其他菜系,包子粥店#\r\n北京市昌平区回龙观西大街龙观置业大厦底商B座102单元1340#营业时间:10:00-20:30', NULL);
+INSERT INTO `seller` VALUES (1, '一品香粥店', '蜂鸟专送', 0000000038, 4.2, 4.1, 4.3, 69.2, 20.0, 4, 24, 91, '一品香粥店其烹饪粥料的秘方源于中国千年古法，在融和现代制作工艺，由世界烹饪大师屈浩先生领衔研发。坚守纯天然、0添加的良心品质深得消费者青睐，发展至今成为粥类的引领品牌。', 'https://order-image.oss-cn-beijing.aliyuncs.com/seller-avatar-256px.jpg', '该商家支持发票,请下单写好发票抬头#\r\n品类:其他菜系,包子粥店#廊坊市广阳区万达广场金街16号\r\n#营业时间:10:00-20:30', NULL);
 
 -- ----------------------------
 -- Table structure for seller_img
@@ -240,7 +280,7 @@ INSERT INTO `seller` VALUES (1, '粥品香坊（回龙观）', '蜂鸟专送', 0
 DROP TABLE IF EXISTS `seller_img`;
 CREATE TABLE `seller_img`  (
   `pic_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '图片id',
-  `pic_str` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL COMMENT '图片string',
+  `pic_str` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL COMMENT '图片实景照片',
   `seller_id` int(11) NULL DEFAULT NULL COMMENT '商家id',
   PRIMARY KEY (`pic_id`) USING BTREE
 ) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '商家图片' ROW_FORMAT = Compact;
@@ -248,10 +288,10 @@ CREATE TABLE `seller_img`  (
 -- ----------------------------
 -- Records of seller_img
 -- ----------------------------
-INSERT INTO `seller_img` VALUES (1, 'http://fuss10.elemecdn.com/8/71/c5cf5715740998d5040dda6e66abfjpeg.jpeg?imageView2/1/w/180/h/180', 1);
-INSERT INTO `seller_img` VALUES (2, 'http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180', 1);
-INSERT INTO `seller_img` VALUES (3, 'http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180', 1);
-INSERT INTO `seller_img` VALUES (4, 'http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180', 1);
+INSERT INTO `seller_img` VALUES (1, 'https://order-image.oss-cn-beijing.aliyuncs.com/pics1-180px-180px.jpeg', 1);
+INSERT INTO `seller_img` VALUES (2, 'https://order-image.oss-cn-beijing.aliyuncs.com/pics2.jpeg', 1);
+INSERT INTO `seller_img` VALUES (3, 'https://order-image.oss-cn-beijing.aliyuncs.com/pics3.jpeg', 1);
+INSERT INTO `seller_img` VALUES (4, 'https://order-image.oss-cn-beijing.aliyuncs.com/pics4.jpeg', 1);
 
 -- ----------------------------
 -- Table structure for seller_rating
@@ -273,30 +313,30 @@ CREATE TABLE `seller_rating`  (
 -- ----------------------------
 -- Records of seller_rating
 -- ----------------------------
-INSERT INTO `seller_rating` VALUES (1, 1, '3******c', 1469281964000, 30, 5, 0, '不错,粥很好喝,我经常吃这一家,非常赞,以后也会常来吃,强烈推荐.', '南瓜粥,皮蛋瘦肉粥,扁豆焖面,娃娃菜炖豆腐,牛肉馅饼');
-INSERT INTO `seller_rating` VALUES (2, 1, '2******3', 1469271264000, NULL, 4, 0, '服务态度不错', '扁豆焖面');
-INSERT INTO `seller_rating` VALUES (3, 1, '3******b', 1469261964000, NULL, 3, 1, NULL, NULL);
-INSERT INTO `seller_rating` VALUES (4, 1, '1******c', 1469261864000, 20, 5, 0, '良心店铺', NULL);
-INSERT INTO `seller_rating` VALUES (5, 1, '2******d', 1469251264000, 10, 4, 0, NULL, NULL);
-INSERT INTO `seller_rating` VALUES (6, 1, '9******0', 1469241964000, 70, 1, 1, '送货速度蜗牛一样', NULL);
-INSERT INTO `seller_rating` VALUES (7, 1, 'd******c', 1469231964000, 30, 5, 0, '很喜欢的粥店', NULL);
-INSERT INTO `seller_rating` VALUES (8, 1, '2******3', 1469221264000, NULL, 4, 0, '量给的还可以', NULL);
-INSERT INTO `seller_rating` VALUES (9, 1, '3******8', 1469211964000, NULL, 3, 1, NULL, NULL);
-INSERT INTO `seller_rating` VALUES (10, 1, 'a******a', 1469201964000, NULL, 4, 0, '孩子喜欢吃这家', NULL);
-INSERT INTO `seller_rating` VALUES (11, 1, '3******3', 1469191264000, NULL, 4, 0, '粥挺好吃的', NULL);
-INSERT INTO `seller_rating` VALUES (12, 1, 't******b', 1469181964000, NULL, 3, 1, NULL, NULL);
-INSERT INTO `seller_rating` VALUES (13, 1, 'f******c', 1469171964000, 15, 5, 0, '送货速度很快', NULL);
-INSERT INTO `seller_rating` VALUES (14, 1, 'k******3', 1469161264000, NULL, 4, 0, NULL, NULL);
-INSERT INTO `seller_rating` VALUES (15, 1, 'u******b', 1469151964000, NULL, 4, 0, '下雨天给快递小哥点个赞', NULL);
-INSERT INTO `seller_rating` VALUES (16, 1, 's******c', 1469141964000, NULL, 4, 0, '好', NULL);
-INSERT INTO `seller_rating` VALUES (17, 1, 'z******3', 1469131264000, NULL, 5, 0, '吃了还想再吃', NULL);
-INSERT INTO `seller_rating` VALUES (18, 1, 'n******b', 1469121964000, NULL, 3, 1, '发票开的不对', NULL);
-INSERT INTO `seller_rating` VALUES (19, 1, 'm******c', 1469111964000, 30, 5, 0, '好吃', NULL);
-INSERT INTO `seller_rating` VALUES (20, 1, 'l******3', 1469101264000, 40, 5, 0, '还不错吧', NULL);
-INSERT INTO `seller_rating` VALUES (21, 1, '3******o', 1469091964000, NULL, 2, 1, NULL, NULL);
-INSERT INTO `seller_rating` VALUES (22, 1, '3******p', 1469081964000, NULL, 4, 0, '很喜欢的粥', NULL);
-INSERT INTO `seller_rating` VALUES (23, 1, 'o******k', 1469071264000, NULL, 5, 0, NULL, NULL);
-INSERT INTO `seller_rating` VALUES (24, 1, 'k******b', 1469061964000, NULL, 4, 0, NULL, NULL);
+INSERT INTO `seller_rating` VALUES (1, 1, '3******c', 1553740008000, 30, 5, 0, '不错,粥很好喝,我经常吃这一家,非常赞,以后也会常来吃,强烈推荐.', '南瓜粥,皮蛋瘦肉粥,扁豆焖面,娃娃菜炖豆腐,牛肉馅饼');
+INSERT INTO `seller_rating` VALUES (2, 1, '2******3', 1553668008000, NULL, 4, 0, '服务态度不错', '扁豆焖面');
+INSERT INTO `seller_rating` VALUES (3, 1, '3******b', 1553563608000, NULL, 3, 1, NULL, NULL);
+INSERT INTO `seller_rating` VALUES (4, 1, '1******c', 1553650008000, 20, 5, 0, '良心店铺', NULL);
+INSERT INTO `seller_rating` VALUES (5, 1, '2******d', 1553563608000, 10, 4, 0, NULL, NULL);
+INSERT INTO `seller_rating` VALUES (6, 1, '9******0', 1553477208000, 70, 1, 1, '送货速度蜗牛一样', NULL);
+INSERT INTO `seller_rating` VALUES (7, 1, 'd******c', 1553390808000, 30, 5, 0, '很喜欢的粥店', NULL);
+INSERT INTO `seller_rating` VALUES (8, 1, '2******3', 1553304408000, NULL, 4, 0, '量给的还可以', NULL);
+INSERT INTO `seller_rating` VALUES (9, 1, '3******8', 1553218008000, NULL, 3, 1, NULL, NULL);
+INSERT INTO `seller_rating` VALUES (10, 1, 'a******a', 1553131608000, NULL, 4, 0, '孩子喜欢吃这家', NULL);
+INSERT INTO `seller_rating` VALUES (11, 1, '3******3', 1553045208000, NULL, 4, 0, '粥挺好吃的', NULL);
+INSERT INTO `seller_rating` VALUES (12, 1, 't******b', 1552958808000, NULL, 3, 1, NULL, NULL);
+INSERT INTO `seller_rating` VALUES (13, 1, 'f******c', 1552872408000, 15, 5, 0, '送货速度很快', NULL);
+INSERT INTO `seller_rating` VALUES (14, 1, 'k******3', 1552786008000, NULL, 4, 0, NULL, NULL);
+INSERT INTO `seller_rating` VALUES (15, 1, 'u******b', 1552699608000, NULL, 4, 0, '下雨天给快递小哥点个赞', NULL);
+INSERT INTO `seller_rating` VALUES (16, 1, 's******c', 1552613208000, NULL, 4, 0, '好', NULL);
+INSERT INTO `seller_rating` VALUES (17, 1, 'z******3', 1552526808000, NULL, 5, 0, '吃了还想再吃', NULL);
+INSERT INTO `seller_rating` VALUES (18, 1, 'n******b', 1552440408000, NULL, 3, 1, '发票开的不对', NULL);
+INSERT INTO `seller_rating` VALUES (19, 1, 'm******c', 1552354008000, 30, 5, 0, '好吃', NULL);
+INSERT INTO `seller_rating` VALUES (20, 1, 'l******3', 1552267608000, 40, 5, 0, '还不错吧', NULL);
+INSERT INTO `seller_rating` VALUES (21, 1, '3******o', 1552181208000, NULL, 2, 1, NULL, NULL);
+INSERT INTO `seller_rating` VALUES (22, 1, '3******p', 1552094808000, NULL, 4, 0, '很喜欢的粥', NULL);
+INSERT INTO `seller_rating` VALUES (23, 1, 'o******k', 1552008408000, NULL, 5, 0, NULL, NULL);
+INSERT INTO `seller_rating` VALUES (24, 1, 'k******b', 1551922008000, NULL, 4, 0, NULL, NULL);
 
 -- ----------------------------
 -- Table structure for seller_support
@@ -423,7 +463,7 @@ CREATE TABLE `sys_menu`  (
   `icon` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '菜单图标',
   `order_num` int(11) NULL DEFAULT NULL COMMENT '排序',
   PRIMARY KEY (`menu_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 101 CHARACTER SET = utf8 COLLATE = utf8_general_ci COMMENT = '菜单管理' ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 106 CHARACTER SET = utf8 COLLATE = utf8_general_ci COMMENT = '菜单管理' ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of sys_menu
@@ -508,6 +548,11 @@ INSERT INTO `sys_menu` VALUES (78, 76, '新增', NULL, 'order:sellersupport:save
 INSERT INTO `sys_menu` VALUES (79, 76, '修改', NULL, 'order:sellersupport:update', 2, NULL, 6);
 INSERT INTO `sys_menu` VALUES (80, 76, '删除', NULL, 'order:sellersupport:delete', 2, NULL, 6);
 INSERT INTO `sys_menu` VALUES (100, 0, '数据管理', NULL, NULL, 0, 'fa fa-font', 0);
+INSERT INTO `sys_menu` VALUES (101, 100, '订单管理', 'modules/order/ordermaster.html', NULL, 1, 'fa fa-file-code-o', 6);
+INSERT INTO `sys_menu` VALUES (102, 101, '查看', NULL, 'order:ordermaster:list,order:ordermaster:info', 2, NULL, 6);
+INSERT INTO `sys_menu` VALUES (103, 101, '新增', NULL, 'order:ordermaster:save', 2, NULL, 6);
+INSERT INTO `sys_menu` VALUES (104, 101, '修改', NULL, 'order:ordermaster:update', 2, NULL, 6);
+INSERT INTO `sys_menu` VALUES (105, 101, '删除', NULL, 'order:ordermaster:delete', 2, NULL, 6);
 
 -- ----------------------------
 -- Table structure for sys_oss
